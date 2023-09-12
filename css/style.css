@@ -7,3 +7,18 @@ body {
     height: 100vh;
     background-color: #1D2D3C;
 }
+
+.card-img-top{
+    width: 250px;
+    height: 250px;
+    object-fit: cover; 
+}
+
+
+.card {
+    background-color: #121f2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

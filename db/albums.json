@@ -3,42 +3,42 @@
         "title": "Born In The USA",
         "author": "Bruce Springsteen",
         "year": 1984,
-        "poster": "Born In The USA.jpg",
+        "poster": "img1.jpg",
         "genre": "Rock"
     },
     {
         "title": "The Piper At The Gates Of Dawn ",
         "author": "Pink Floyd",
         "year": 1967,
-        "poster": "The Piper At The Gates Of Dawn.jpg",
+        "poster": "img2.jpg",
         "genre": "Rock"
     },
     {
         "title": "The Dark Side Of The Moon",
         "author": "Pink Floyd",
         "year": 1973,
-        "poster": "The Dark Side Of The Moon.jpg",
+        "poster": "img3.jpg",
         "genre": "Rock"
     },
     {
         "title": "Nevermind ",
         "author": "Nirvana",
         "year": 1991,
-        "poster": "Nevermind.jpg",
+        "poster": "img4.jpg",
         "genre": "Rock"
     },
     {
         "title": "Sgt. Pepper’s Lonely Hearts Club Band",
         "author": "The Beatles",
         "year": 1967,
-        "poster": "Sgt. Pepper’s Lonely Hearts Club Band.jpg",
+        "poster": "img5.jpg",
         "genre": "Pop"
     },
     {
         "title": "Thriller",
         "author": "Michael Jackson",
         "year": 1982,
-        "poster": "Thriller.jpg",
+        "poster": "img6.jpg",
         "genre": "Pop"
     }
 ]

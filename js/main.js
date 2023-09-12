@@ -1,5 +1,6 @@
 "use strict"
 
+
 Vue.createApp({
 
     data() {
@@ -8,9 +9,9 @@ Vue.createApp({
 
             // Usiamo un oggetto per memorizzare i parametri che saranno inviati con la richiesta GET. 
 
-            albumsList: [],
+            albums: [],
+        };
 
-        }
     },
 
     methods: {
@@ -19,12 +20,16 @@ Vue.createApp({
 
     mounted() {
 
-        // La  risposta della richiesta GET, che per convenzione chiamiamo response, avrà la proprietà data, che conterrà i dati inviati dal server.
+        // La risposta di axios sarà strutturata in un oggetto, che per convenzione chiamiamo response, la cui proprietà data conterrà i dati inviati dal server. 
 
         axios.get("api/albums.php").then((response) => {
-            this.albumsList = response.data
-        })
+            this.albums = response.data
 
+            console.log(this.albums);
+
+        })
     }
 
 }).mount('#app');
+
+

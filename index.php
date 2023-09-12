@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Seguendo il brief allegato, crea un mini clone di Whatsapp.">
+    <meta name="description" content="Crea una web app in grado di leggere una lista di dischi presente nel vostro server">
 
     <title>PHP Dischi JSON</title>
 
@@ -42,6 +42,41 @@
                 </a>
             </div>
         </nav>
+
+        <main>
+
+            <div class="container mt-5">
+
+                <div class="row row-cols-3">
+
+                    <div class="col g-5" v-for="album in albums">
+
+                        <div class="card py-5 text-center text-white" class="card-img-top" alt="">
+
+                            <img :src="`./img/${album.poster}`" class="card-img-top" alt="">
+
+                            <div class="card-body">
+
+                                <div class="card-text">
+
+                                    <h3 class="card-title">{{album.title}}</h3>
+                                    <p class="card-text fs-5"> {{album.year}} </p>
+                                    <p class="card-text fs-4">{{album.author}}</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
 
     </div>
 
