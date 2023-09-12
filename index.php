@@ -25,7 +25,7 @@
     <!-- Link CDN Axios  -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-    <!-- Custom css  --> 
+    <!-- Custom css  -->
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
@@ -34,6 +34,14 @@
 <body>
 
     <div id="app">
+
+        <nav class="navbar " style="background-color: #05131F;">
+            <div class="container-fluid px-5">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/spotify-logo.png" alt="Bootstrap" width="70" height="70">
+                </a>
+            </div>
+        </nav>
 
     </div>
 
