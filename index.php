@@ -25,7 +25,7 @@
     <!-- Link CDN Axios  -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-    <!-- Custom css  -->
+    <!-- Custom css  --> 
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
